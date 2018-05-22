@@ -1,0 +1,32 @@
+
+{{!-- 
+  ANDA OK.
+  Recibe un Objeto que contiene un ARRAY. Imprime cada uno de los valores del ARRAY.
+--}}
+
+<h1>/IF</h1>
+<div>
+  <h2>Condicional IF dentro del HTML</h2>
+  <p>Esto es un Condicional If. Dependiendo del valor de una variable, se imprime IF o ELSE.</p>
+  <div class="objetoDeJs">
+    <div>
+      <p> IF: <br>
+        {{#if name}}
+          {{edad}} 
+        {{else}}
+          {{color}}
+        {{/if}}
+        <br><br>
+        ELSE: <br>
+        {{!-- Esta variable NO existe, entonces se imprime el ESLE --}}
+        {{#if noExisto}} 
+          {{edad}} 
+        {{else}} 
+          {{color}}
+        {{/if}}
+      </p>
+    </div>
+  </div>
+</div>
+
+

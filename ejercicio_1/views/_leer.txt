@@ -1,0 +1,2 @@
+En la carpeta views vamos a poner todos nuestros templates
+La carpeta layouts guarda los archivos que van a funcionar como marco general de nuestros templates

@@ -1,0 +1,22 @@
+
+{{!-- 
+  ANDA OK.
+  Recibe un Objeto que contiene un ARRAY. Imprime cada uno de los valores del ARRAY.
+--}}
+<h1>/PRODUCTOS</h1>
+<div>
+  <h2>Productos</h2>
+  <p>ANDA OK.  <br>
+   Recibe un Objeto que contiene un ARRAY. Imprime cada uno de los valores del ARRAY. <br>
+   En este ejemplo iteramos la colección de productos y creamos una lista de forma dinámica</p>
+  <div class="objetoDeJs">
+    {{!-- Esto es una variable enviada desde el index.js --}}
+    <ul>
+      {{#each productos}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
+
+
